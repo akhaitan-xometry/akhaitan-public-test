@@ -1,0 +1,815 @@
+{
+    "_id" : ObjectId("543ef1f380da5b0c476373a6"),
+    "machine_name" : "CNC Vertical Mill",
+    "fit_information" : {
+        "std_dev_error" : 69.2545798609,
+        "std_dev_cost" : 257.0990111268,
+        "mean_cost" : 335.553375,
+        "n_data_points" : 80,
+        "time" : ISODate("2015-10-05T13:22:11.784Z"),
+        "plots" : [ 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpfayEyI.png",
+                "upload_time" : ISODate("2015-10-05T13:22:06.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "a4763b513ed7a82029154ed097ad1e88"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpI9awGK.png",
+                "upload_time" : ISODate("2015-10-05T13:22:06.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "3c6a059dcd00079eecb5cd997ba20df4"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpauLOS3.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "29b616c70bc6992cc78c2e020293a144"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpeeOyYf.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "ee86632122757d3fbf55d44f40de9115"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmp2fRmoW.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "a1739195af8bb2aa05492e1ebd223020"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmp_r121n.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "7b57a03aeba62546ef2597efc3d913e6"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmprwV3CZ.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "1211c2f9b97629c9c36a1171606f1795"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpGJELp5.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "e9ba75713ff39bf3bc5c0495ee560b67"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmp_XnTHx.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "2c755e99486049f95c0618c1c42e533c"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpaeS3OK.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "dd375c5a650a1557c3b82669da8bb8f5"
+            }, 
+            {
+                "s3_key" : "pricing_plots/543ef1f380da5b0c476373a6/tmpOKOpmJ.png",
+                "upload_time" : ISODate("2015-10-05T13:22:05.000Z"),
+                "bucket" : "nextline-data",
+                "private" : true,
+                "md5" : "9c246a0b2484880204705e657d0bcc90"
+            }
+        ],
+        "mean_error" : 4.9874160744
+    },
+    "example_part" : {
+        "costs" : {
+            "machine" : 93.67,
+            "materials" : 0,
+            "labor" : 88.75
+        },
+        "id" : "0010788"
+    },
+    "rfq_enabled" : false,
+    "web_name" : "CNC Machining",
+    "cheapest_materials" : [ 
+        ObjectId("5515e170db035c20ce34af9a")
+    ],
+    "specs" : [ 
+        "x", 
+        "y", 
+        "z", 
+        "axes"
+    ],
+    "default_finish" : ObjectId("543ef1f380da5b0c476373c1"),
+    "outsourceable" : true,
+    "description" : "Computer Numerical Control (CNC) Machining combines the latest multi-axis precision milling and turning (lathe) processes to produce highly accurate, quick turn parts in as fast as 3 days.",
+    "quotable" : true,
+    "_deleted" : false,
+    "staff_only" : false,
+    "formula" : {},
+    "initialism" : "CNC",
+    "type" : "subtractive",
+    "lead_time" : 7,
+    "pricing_parameters" : {
+        "minimum_stime" : 2244.3409094048,
+        "new_company_discount_dollar_limit" : 1000,
+        "sm_quantity_coef1" : -1.17561759952e-05,
+        "vm_setup_discount" : -0.05,
+        "minimum_ctime" : 330.4418456341,
+        "market_model" : {
+            "status" : "pass",
+            "training_time_stamp" : ISODate("2019-10-28T06:00:19.880Z"),
+            "lag_2" : {
+                "sample" : 72,
+                "mean_accepted_part_cost" : 592.24991238169,
+                "intercept" : -0.603137415535145,
+                "end_date" : ISODate("2019-10-11T22:02:22.232Z"),
+                "r2" : 0.803219298379194,
+                "error" : 0.274944255851575,
+                "mean_cost_coef" : 1.06979491255139,
+                "mse" : 16.3301331604142,
+                "start_date" : ISODate("2019-09-30T13:24:49.937Z"),
+                "mean_cost_model_cost" : 542.000895895989
+            },
+            "lag_1" : {
+                "sample" : 88,
+                "mean_accepted_part_cost" : 602.879659090909,
+                "intercept" : -0.94364000005193,
+                "end_date" : ISODate("2019-10-25T21:40:40.520Z"),
+                "r2" : 0.787629926895046,
+                "error" : 0.306409614332267,
+                "mean_cost_coef" : 1.13382854359949,
+                "mse" : 18.0354014470477,
+                "start_date" : ISODate("2019-10-14T17:16:12.692Z"),
+                "mean_cost_model_cost" : 572.956819786337
+            }
+        },
+        "quantity_material_rate" : 0.6,
+        "mbp" : {
+            "constraints" : {
+                "objective" : "net revenue",
+                "margin" : 0.23,
+                "max_margin" : 0.235
+            },
+            "_cls" : "MBPPricing",
+            "name" : "MBP Pricing Constraints"
+        },
+        "pct_vendors_loss" : 0,
+        "local_finish_factor" : 0.15,
+        "lathe_stime_factor" : 0.8512578489,
+        "experimental_quantity_limit" : 1000,
+        "sm_max_quantity_discount" : 72,
+        "vm_quantity_coef1" : -7e-05,
+        "vm_quantity_coef2" : 0.0189,
+        "vm_quantity_coef3" : -4e-05,
+        "lathe_quantity_coef2" : 0.0294,
+        "lathe_quantity_coef3" : 0.0978305523146,
+        "lathe_quantity_coef1" : -6.8339706482e-05,
+        "lathe_ctime_factor" : 0.896896279,
+        "vm_max_quantity_discount" : 64,
+        "ab_test_lead_time_prob" : {
+            "control" : 0,
+            "market_based_lead_time" : 1
+        },
+        "mix_quantity_coef2" : 0.03345,
+        "sm_setup_discount" : 0.215,
+        "quantity_adjustment_start" : 10,
+        "experimental_quantity_adjustment" : 40,
+        "offer_window" : 8,
+        "quantity_labor_rate_factor" : 0.6,
+        "sm_quantity_coef3" : 0.126940053188,
+        "lathe_max_discount" : 0.45,
+        "vm_max_discount" : 0.31,
+        "quantity_adjustment_end" : 1000,
+        "pct_loss_limit" : 2,
+        "ab_test" : {
+            "proba" : {
+                "standard" : 0,
+                "CNC_MBP_Formula" : 0,
+                "CNC_MBP_Deeplearning" : 1
+            },
+            "_cls" : "ABTestPricingParameters",
+            "name" : "MBP Net Revenue Strategy Test"
+        },
+        "sm_quantity_coef2" : 0.13,
+        "mix_max_discount" : 0.65,
+        "stime_coefficient" : 3217.6512591327,
+        "lathe_max_quantity_discount" : 72,
+        "max_vendor_margin" : 0.25,
+        "max_small_loss" : 600,
+        "expedite_ab_test" : {
+            "proba" : {
+                "standard_expedite" : 1,
+                "mbp_expedite" : 0
+            },
+            "_cls" : "ABTestPricingParameters",
+            "name" : "Expedite_AB_Test"
+        },
+        "absolute_loss_limit" : 2500,
+        "lathe_setup_discount" : 0.27,
+        "mix_setup_discount" : 0.17,
+        "vendor_rates" : [ 
+            0.15
+        ],
+        "market_model_history" : [ 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-09-18T01:09:07.226Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 707.838578562114,
+                    "end_date" : ISODate("2019-08-31T01:50:03.645Z"),
+                    "r2" : 0.785390966429963,
+                    "sample" : 110,
+                    "mean_cost_coef" : 1.13158034827548,
+                    "intercept" : -0.971189994865299,
+                    "mean_cost_model_cost" : 683.28223917438,
+                    "error" : 0.30729172230748,
+                    "mse" : 19.376360997888,
+                    "start_date" : ISODate("2019-08-19T14:01:13.557Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 482.426071400491,
+                    "end_date" : ISODate("2019-09-14T16:27:33.123Z"),
+                    "r2" : 0.748108346110498,
+                    "sample" : 74,
+                    "mean_cost_coef" : 1.00036208647849,
+                    "intercept" : -0.171611684591136,
+                    "mean_cost_model_cost" : 515.174282733822,
+                    "error" : 0.277570682142638,
+                    "mse" : 16.6827736554725,
+                    "start_date" : ISODate("2019-09-03T06:02:42.219Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-09-23T06:00:17.362Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 709.560631841492,
+                    "end_date" : ISODate("2019-09-06T22:27:22.602Z"),
+                    "r2" : 0.815401277868518,
+                    "sample" : 78,
+                    "mean_cost_coef" : 1.19155708025803,
+                    "intercept" : -1.28604160550686,
+                    "mean_cost_model_cost" : 625.151590187547,
+                    "error" : 0.401275522000847,
+                    "mse" : 18.7019183941983,
+                    "start_date" : ISODate("2019-08-26T15:29:29.434Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 508.099775280899,
+                    "end_date" : ISODate("2019-09-20T19:47:55.823Z"),
+                    "r2" : 0.824159552836616,
+                    "sample" : 89,
+                    "mean_cost_coef" : 1.06196149240944,
+                    "intercept" : -0.564093250549837,
+                    "mean_cost_model_cost" : 541.412723947149,
+                    "error" : 0.257019336155271,
+                    "mse" : 16.9544376462989,
+                    "start_date" : ISODate("2019-09-09T00:13:40.607Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-09-30T06:00:18.603Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 664.843540684262,
+                    "end_date" : ISODate("2019-09-15T23:28:31.741Z"),
+                    "r2" : 0.814235962621516,
+                    "sample" : 93,
+                    "mean_cost_coef" : 1.14529010694762,
+                    "intercept" : -1.01268680540714,
+                    "mean_cost_model_cost" : 579.157524607026,
+                    "error" : 0.380525658032992,
+                    "mse" : 17.517591327736,
+                    "start_date" : ISODate("2019-09-03T06:02:42.219Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 430.5943,
+                    "end_date" : ISODate("2019-09-27T19:52:07.526Z"),
+                    "r2" : 0.754205285311871,
+                    "sample" : 100,
+                    "mean_cost_coef" : 1.12704575373377,
+                    "intercept" : -0.918604567507716,
+                    "mean_cost_model_cost" : 431.866418762129,
+                    "error" : 0.257587522397042,
+                    "mse" : 16.0197836230311,
+                    "start_date" : ISODate("2019-09-16T12:18:58.426Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-10-07T06:00:18.888Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 617.394224137931,
+                    "end_date" : ISODate("2019-09-21T12:29:54.315Z"),
+                    "r2" : 0.764678406145253,
+                    "sample" : 116,
+                    "mean_cost_coef" : 1.08417706645952,
+                    "intercept" : -0.589418548300374,
+                    "mean_cost_model_cost" : 540.117699148959,
+                    "error" : 0.315105732130953,
+                    "mse" : 17.6196919144769,
+                    "start_date" : ISODate("2019-09-09T00:13:40.607Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 413.266329113924,
+                    "end_date" : ISODate("2019-10-03T20:41:43.800Z"),
+                    "r2" : 0.885694420013568,
+                    "sample" : 79,
+                    "mean_cost_coef" : 1.20787768973296,
+                    "intercept" : -1.45394914440628,
+                    "mean_cost_model_cost" : 431.005613976682,
+                    "error" : 0.261469856442325,
+                    "mse" : 15.2845854797228,
+                    "start_date" : ISODate("2019-09-23T05:29:58.625Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-10-14T06:00:19.099Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 432.880387596899,
+                    "end_date" : ISODate("2019-09-29T23:19:34.063Z"),
+                    "r2" : 0.791642669016559,
+                    "sample" : 129,
+                    "mean_cost_coef" : 1.14959648282423,
+                    "intercept" : -1.04329410652208,
+                    "mean_cost_model_cost" : 430.409686496012,
+                    "error" : 0.255703992137983,
+                    "mse" : 15.9509586994659,
+                    "start_date" : ISODate("2019-09-16T12:18:58.426Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 401.096666666667,
+                    "end_date" : ISODate("2019-10-11T16:52:38.052Z"),
+                    "r2" : 0.802704356866124,
+                    "sample" : 54,
+                    "mean_cost_coef" : 1.06423939361446,
+                    "intercept" : -0.607633732915625,
+                    "mean_cost_model_cost" : 454.696266215223,
+                    "error" : 0.200773525464433,
+                    "mse" : 16.1834334364648,
+                    "start_date" : ISODate("2019-09-30T13:24:49.937Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-10-21T06:00:19.436Z"),
+                "lag_2" : {
+                    "mean_accepted_part_cost" : 411.24402173913,
+                    "end_date" : ISODate("2019-10-04T15:44:02.503Z"),
+                    "r2" : 0.862780114421556,
+                    "sample" : 92,
+                    "mean_cost_coef" : 1.14736858933612,
+                    "intercept" : -1.09008995071575,
+                    "mean_cost_model_cost" : 436.535677795686,
+                    "error" : 0.246280648253317,
+                    "mse" : 15.5012962547269,
+                    "start_date" : ISODate("2019-09-23T05:29:58.625Z")
+                },
+                "lag_1" : {
+                    "mean_accepted_part_cost" : 563.442515473788,
+                    "end_date" : ISODate("2019-10-18T15:45:39.172Z"),
+                    "r2" : 0.758046354909643,
+                    "sample" : 77,
+                    "mean_cost_coef" : 1.05412501541617,
+                    "intercept" : -0.497028223629781,
+                    "mean_cost_model_cost" : 517.61807584502,
+                    "error" : 0.251487726945419,
+                    "mse" : 16.2555629155957,
+                    "start_date" : ISODate("2019-10-07T08:05:58.641Z")
+                }
+            }, 
+            {
+                "status" : "pass",
+                "training_time_stamp" : ISODate("2019-10-28T06:00:19.880Z"),
+                "lag_2" : {
+                    "sample" : 72,
+                    "mean_accepted_part_cost" : 592.24991238169,
+                    "intercept" : -0.603137415535145,
+                    "end_date" : ISODate("2019-10-11T22:02:22.232Z"),
+                    "r2" : 0.803219298379194,
+                    "error" : 0.274944255851575,
+                    "mean_cost_coef" : 1.06979491255139,
+                    "mse" : 16.3301331604142,
+                    "start_date" : ISODate("2019-09-30T13:24:49.937Z"),
+                    "mean_cost_model_cost" : 542.000895895989
+                },
+                "lag_1" : {
+                    "sample" : 88,
+                    "mean_accepted_part_cost" : 602.879659090909,
+                    "intercept" : -0.94364000005193,
+                    "end_date" : ISODate("2019-10-25T21:40:40.520Z"),
+                    "r2" : 0.787629926895046,
+                    "error" : 0.306409614332267,
+                    "mean_cost_coef" : 1.13382854359949,
+                    "mse" : 18.0354014470477,
+                    "start_date" : ISODate("2019-10-14T17:16:12.692Z"),
+                    "mean_cost_model_cost" : 572.956819786337
+                }
+            }
+        ],
+        "experimental_quantity_slope" : 0.06,
+        "small_loss_threshold" : 0,
+        "sm_max_discount" : 0.4,
+        "_cls" : "CNCPricingParameters",
+        "ab_test_market_based_lead_time_schedule" : {
+            "200" : 4,
+            "6400" : 10,
+            "9600" : 13,
+            "2400" : 7,
+            "3200" : 9,
+            "1600" : 6,
+            "11200" : 15,
+            "12800" : 16,
+            "400" : 5,
+            "800" : 6,
+            "8000" : 11
+        },
+        "new_company_discount_percentage" : 0.0001,
+        "margin" : 0,
+        "ctime_coefficient" : 1736.1569835739,
+        "median_ptime" : 1711.1059358209,
+        "mix_quantity_coef1" : -0.000100768840035,
+        "mix_max_quantity_discount" : 64,
+        "mix_quantity_coef3" : 0.230070045719
+    },
+    "risk" : [ 
+        {
+            "not_outsourced" : {
+                "not_standard" : {
+                    "Op # PRG Continued" : 0,
+                    "Question Asked" : 0,
+                    "Op # SETUP Continued" : 0,
+                    "Ready for Production" : 0,
+                    "Op # CYCLE Paused" : 0,
+                    "Finishing Done" : 0,
+                    "Outsourced" : 0,
+                    "Finishing Started" : 0,
+                    "Offers Made" : 0,
+                    "Op # INSPECTION Paused" : 0,
+                    "Rejected" : 0,
+                    "Requoted" : 0,
+                    "Op # INSPECTION Done" : 0,
+                    "Final Inspection Done" : 0,
+                    "Materials Received" : 0,
+                    "Op # INSPECTION Started" : 0,
+                    "Auto-Quoted" : 0,
+                    "Op # PRG Paused" : 0,
+                    "On Hold" : 0,
+                    "Manually-Quoted" : 0,
+                    "Op # INSPECTION Continued" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Op # PRG Done" : 0,
+                    "Op # CYCLE Started" : 0,
+                    "Op # CYCLE Done" : 0,
+                    "All Offers Expired" : 0,
+                    "Op # SETUP Started" : 0,
+                    "Final Inspection Started" : 0,
+                    "Op # SETUP Paused" : 0,
+                    "Op # PRG Started" : 0,
+                    "Materials Ordered" : 0,
+                    "Op # SETUP Done" : 0,
+                    "Op # CYCLE Continued" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Op # PRG Continued" : 0,
+                    "Question Asked" : 0,
+                    "Op # SETUP Continued" : 0,
+                    "Ready for Production" : 0,
+                    "Op # CYCLE Paused" : 0,
+                    "Finishing Done" : 0,
+                    "Outsourced" : 0,
+                    "Finishing Started" : 0,
+                    "Offers Made" : 0,
+                    "Op # INSPECTION Paused" : 0,
+                    "Rejected" : 0,
+                    "Requoted" : 0,
+                    "Op # INSPECTION Done" : 0,
+                    "Final Inspection Done" : 0,
+                    "Materials Received" : 0,
+                    "Op # INSPECTION Started" : 0,
+                    "Auto-Quoted" : 0,
+                    "Op # PRG Paused" : 0,
+                    "On Hold" : 0,
+                    "Manually-Quoted" : 0,
+                    "Op # INSPECTION Continued" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Op # PRG Done" : 0,
+                    "Op # CYCLE Started" : 0,
+                    "Op # CYCLE Done" : 0,
+                    "All Offers Expired" : 0,
+                    "Op # SETUP Started" : 0,
+                    "Final Inspection Started" : 0,
+                    "Op # SETUP Paused" : 0,
+                    "Op # PRG Started" : 0,
+                    "Materials Ordered" : 0,
+                    "Op # SETUP Done" : 0,
+                    "Op # CYCLE Continued" : 0,
+                    "Offer Accepted" : 0
+                }
+            },
+            "outsourced" : {
+                "not_standard" : {
+                    "Finishing Started" : 0,
+                    "Question Asked" : 0,
+                    "Received by Xometry" : 0,
+                    "Final Inspection Started" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Rejected" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "All Offers Expired" : 0,
+                    "Finishing Done" : 0,
+                    "Shipped to Xometry" : 0,
+                    "Final Inspection Done" : 0,
+                    "Outsourced" : 0,
+                    "Requoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Finishing Started" : 0,
+                    "Question Asked" : 0,
+                    "Received by Xometry" : 0,
+                    "Final Inspection Started" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Rejected" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "All Offers Expired" : 0,
+                    "Finishing Done" : 0,
+                    "Shipped to Xometry" : 0,
+                    "Final Inspection Done" : 0,
+                    "Outsourced" : 0,
+                    "Requoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                }
+            }
+        }, 
+        {
+            "not_outsourced" : {
+                "not_standard" : {
+                    "Op # PRG Continued" : 0,
+                    "Question Asked" : 0,
+                    "Op # SETUP Continued" : 0,
+                    "Ready for Production" : 0,
+                    "Op # CYCLE Paused" : 0,
+                    "Finishing Done" : 0,
+                    "Outsourced" : 0,
+                    "Finishing Started" : 0,
+                    "Offers Made" : 0,
+                    "Op # INSPECTION Paused" : 0,
+                    "Rejected" : 0,
+                    "Requoted" : 0,
+                    "Op # INSPECTION Done" : 0,
+                    "Final Inspection Done" : 0,
+                    "Materials Received" : 0,
+                    "Op # INSPECTION Started" : 0,
+                    "Auto-Quoted" : 0,
+                    "Op # PRG Paused" : 0,
+                    "On Hold" : 0,
+                    "Manually-Quoted" : 0,
+                    "Op # INSPECTION Continued" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Op # PRG Done" : 0,
+                    "Op # CYCLE Started" : 0,
+                    "Op # CYCLE Done" : 0,
+                    "All Offers Expired" : 0,
+                    "Op # SETUP Started" : 0,
+                    "Final Inspection Started" : 0,
+                    "Op # SETUP Paused" : 0,
+                    "Op # PRG Started" : 0,
+                    "Materials Ordered" : 0,
+                    "Op # SETUP Done" : 0,
+                    "Op # CYCLE Continued" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Op # PRG Continued" : 0,
+                    "Question Asked" : 0,
+                    "Op # SETUP Continued" : 0,
+                    "Ready for Production" : 0,
+                    "Op # CYCLE Paused" : 0,
+                    "Finishing Done" : 0,
+                    "Outsourced" : 0,
+                    "Finishing Started" : 0,
+                    "Offers Made" : 0,
+                    "Op # INSPECTION Paused" : 0,
+                    "Rejected" : 0,
+                    "Requoted" : 0,
+                    "Op # INSPECTION Done" : 0,
+                    "Final Inspection Done" : 0,
+                    "Materials Received" : 0,
+                    "Op # INSPECTION Started" : 0,
+                    "Auto-Quoted" : 0,
+                    "Op # PRG Paused" : 0,
+                    "On Hold" : 0,
+                    "Manually-Quoted" : 0,
+                    "Op # INSPECTION Continued" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Op # PRG Done" : 0,
+                    "Op # CYCLE Started" : 0,
+                    "Op # CYCLE Done" : 0,
+                    "All Offers Expired" : 0,
+                    "Op # SETUP Started" : 0,
+                    "Final Inspection Started" : 0,
+                    "Op # SETUP Paused" : 0,
+                    "Op # PRG Started" : 0,
+                    "Materials Ordered" : 0,
+                    "Op # SETUP Done" : 0,
+                    "Op # CYCLE Continued" : 0,
+                    "Offer Accepted" : 0
+                }
+            },
+            "outsourced" : {
+                "not_standard" : {
+                    "Finishing Started" : 0,
+                    "Question Asked" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Received by Xometry" : 0,
+                    "Shipped to Xometry" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Finishing Done" : 0,
+                    "Rejected" : 0,
+                    "Final Inspection Done" : 0,
+                    "Requoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Final Inspection Started" : 0,
+                    "Fabrication Started" : 0
+                },
+                "standard" : {
+                    "Finishing Started" : 0,
+                    "Question Asked" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Received by Xometry" : 0,
+                    "Shipped to Xometry" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Finishing Done" : 0,
+                    "Rejected" : 0,
+                    "Final Inspection Done" : 0,
+                    "Requoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Final Inspection Started" : 0,
+                    "Fabrication Started" : 0
+                }
+            }
+        }, 
+        {
+            "not_outsourced" : {
+                "not_standard" : {
+                    "Question Asked" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Ready for Production" : 0,
+                    "Manually-Quoted" : 0,
+                    "Materials Ordered" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Offer Accepted" : 0,
+                    "Materials Received" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Outsourced" : 0
+                },
+                "standard" : {
+                    "Question Asked" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Ready for Production" : 0,
+                    "Manually-Quoted" : 0,
+                    "Materials Ordered" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Offer Accepted" : 0,
+                    "Materials Received" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Outsourced" : 0
+                }
+            },
+            "outsourced" : {
+                "not_standard" : {
+                    "Question Asked" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Final Inspection Started" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Outsourced" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Question Asked" : 0,
+                    "Prepare For Shipping" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Final Inspection Started" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Outsourced" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                }
+            }
+        }, 
+        {
+            "not_outsourced" : {
+                "not_standard" : {
+                    "Question Asked" : 0,
+                    "All Offers Expired" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Requoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Outsourced" : 0,
+                    "Manually-Quoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Question Asked" : 0,
+                    "All Offers Expired" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Requoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Outsourced" : 0,
+                    "Manually-Quoted" : 0,
+                    "Auto-Quoted" : 0,
+                    "Offer Accepted" : 0
+                }
+            },
+            "outsourced" : {
+                "not_standard" : {
+                    "Question Asked" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Final Inspection Started" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Outsourced" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                },
+                "standard" : {
+                    "Question Asked" : 0,
+                    "On Hold" : 0,
+                    "Offers Made" : 0,
+                    "Final Inspection Started" : 0,
+                    "Manually-Quoted" : 0,
+                    "Line Item Placeholder" : 0,
+                    "Requoted" : 0,
+                    "Outsourced" : 0,
+                    "All Offers Expired" : 0,
+                    "Auto-Quoted" : 0,
+                    "Fabrication Started" : 0,
+                    "Offer Accepted" : 0
+                }
+            }
+        }
+    ],
+    "parent" : ObjectId("543ef1f380da5b0c476373a6"),
+    "process_group" : "",
+    "step" : "build",
+    "ab_test_model_prob" : {
+        "cnc_customer_attributes" : 0,
+        "cnc_no_customer_attributes" : 1
+    },
+    "_constructed" : ISODate("2014-10-15T22:15:15.000Z"),
+    "_updated" : ISODate("2016-02-01T12:26:22.000Z"),
+    "name" : "CNC Machining",
+    "is_machine_technology" : true,
+    "_version" : 5,
+    "is_highlighted_for_quoters" : true
+}
